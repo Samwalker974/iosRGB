@@ -69,6 +69,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfM-bR-TCs">
                                 <rect key="frame" x="172.5" y="616" width="30" height="30"/>
                                 <state key="normal" title="RaZ"/>
+                                <connections>
+                                    <action selector="razButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kTo-J6-lWS"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SVO-Ih-kpr">
                                 <rect key="frame" x="268" y="616" width="83.5" height="31"/>
@@ -164,7 +167,11 @@
                     <connections>
                         <outlet property="blueAff" destination="yvS-nl-quj" id="ZSR-dk-xYa"/>
                         <outlet property="greenAff" destination="78J-rA-PD3" id="0sn-Bq-C83"/>
+                        <outlet property="premAff" destination="fQx-ws-oZd" id="0yF-9k-6yM"/>
                         <outlet property="redAff" destination="DSX-So-H0H" id="KgD-9i-oGx"/>
+                        <outlet property="slideAffBlue" destination="EWo-kV-xH7" id="E9h-UB-5bC"/>
+                        <outlet property="slideAffGreen" destination="85l-3m-fWz" id="paU-BG-LFP"/>
+                        <outlet property="slideAffRed" destination="abJ-VU-nde" id="BSf-2o-rar"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

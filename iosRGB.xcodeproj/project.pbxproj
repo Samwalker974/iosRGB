@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA02433826298EFD00961E53 /* appligit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appligit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA02433826298EFD00961E53 /* iosRGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosRGB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA02433B26298EFD00961E53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA02433D26298EFD00961E53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA02433F26298EFD00961E53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		FA02434726298EFD00961E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA02434A26298EFD00961E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA02434C26298EFD00961E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA02435126298EFD00961E53 /* appligitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appligitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA02435126298EFD00961E53 /* iosRGBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosRGBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA02435526298EFD00961E53 /* appligitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appligitTests.swift; sourceTree = "<group>"; };
 		FA02435726298EFD00961E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA02435C26298EFD00961E53 /* appligitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appligitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA02435C26298EFD00961E53 /* iosRGBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosRGBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA02436026298EFD00961E53 /* appligitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appligitUITests.swift; sourceTree = "<group>"; };
 		FA02436226298EFD00961E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		FA02433926298EFD00961E53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA02433826298EFD00961E53 /* appligit.app */,
-				FA02435126298EFD00961E53 /* appligitTests.xctest */,
-				FA02435C26298EFD00961E53 /* appligitUITests.xctest */,
+				FA02433826298EFD00961E53 /* iosRGB.app */,
+				FA02435126298EFD00961E53 /* iosRGBTests.xctest */,
+				FA02435C26298EFD00961E53 /* iosRGBUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA02433726298EFD00961E53 /* appligit */ = {
+		FA02433726298EFD00961E53 /* iosRGB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA02436526298EFD00961E53 /* Build configuration list for PBXNativeTarget "appligit" */;
+			buildConfigurationList = FA02436526298EFD00961E53 /* Build configuration list for PBXNativeTarget "iosRGB" */;
 			buildPhases = (
 				FA02433426298EFD00961E53 /* Sources */,
 				FA02433526298EFD00961E53 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = appligit;
+			name = iosRGB;
 			productName = appligit;
-			productReference = FA02433826298EFD00961E53 /* appligit.app */;
+			productReference = FA02433826298EFD00961E53 /* iosRGB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA02435026298EFD00961E53 /* appligitTests */ = {
+		FA02435026298EFD00961E53 /* iosRGBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA02436826298EFD00961E53 /* Build configuration list for PBXNativeTarget "appligitTests" */;
+			buildConfigurationList = FA02436826298EFD00961E53 /* Build configuration list for PBXNativeTarget "iosRGBTests" */;
 			buildPhases = (
 				FA02434D26298EFD00961E53 /* Sources */,
 				FA02434E26298EFD00961E53 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				FA02435326298EFD00961E53 /* PBXTargetDependency */,
 			);
-			name = appligitTests;
+			name = iosRGBTests;
 			productName = appligitTests;
-			productReference = FA02435126298EFD00961E53 /* appligitTests.xctest */;
+			productReference = FA02435126298EFD00961E53 /* iosRGBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FA02435B26298EFD00961E53 /* appligitUITests */ = {
+		FA02435B26298EFD00961E53 /* iosRGBUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA02436B26298EFD00961E53 /* Build configuration list for PBXNativeTarget "appligitUITests" */;
+			buildConfigurationList = FA02436B26298EFD00961E53 /* Build configuration list for PBXNativeTarget "iosRGBUITests" */;
 			buildPhases = (
 				FA02435826298EFD00961E53 /* Sources */,
 				FA02435926298EFD00961E53 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				FA02435E26298EFD00961E53 /* PBXTargetDependency */,
 			);
-			name = appligitUITests;
+			name = iosRGBUITests;
 			productName = appligitUITests;
-			productReference = FA02435C26298EFD00961E53 /* appligitUITests.xctest */;
+			productReference = FA02435C26298EFD00961E53 /* iosRGBUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA02433326298EFD00961E53 /* Build configuration list for PBXProject "appligit" */;
+			buildConfigurationList = FA02433326298EFD00961E53 /* Build configuration list for PBXProject "iosRGB" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA02433726298EFD00961E53 /* appligit */,
-				FA02435026298EFD00961E53 /* appligitTests */,
-				FA02435B26298EFD00961E53 /* appligitUITests */,
+				FA02433726298EFD00961E53 /* iosRGB */,
+				FA02435026298EFD00961E53 /* iosRGBTests */,
+				FA02435B26298EFD00961E53 /* iosRGBUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		FA02435326298EFD00961E53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA02433726298EFD00961E53 /* appligit */;
+			target = FA02433726298EFD00961E53 /* iosRGB */;
 			targetProxy = FA02435226298EFD00961E53 /* PBXContainerItemProxy */;
 		};
 		FA02435E26298EFD00961E53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA02433726298EFD00961E53 /* appligit */;
+			target = FA02433726298EFD00961E53 /* iosRGB */;
 			targetProxy = FA02435D26298EFD00961E53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -488,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appligit.app/appligit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosRGB.app/iosRGB";
 			};
 			name = Debug;
 		};
@@ -509,7 +509,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appligit.app/appligit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosRGB.app/iosRGB";
 			};
 			name = Release;
 		};
@@ -554,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA02433326298EFD00961E53 /* Build configuration list for PBXProject "appligit" */ = {
+		FA02433326298EFD00961E53 /* Build configuration list for PBXProject "iosRGB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA02436326298EFD00961E53 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA02436526298EFD00961E53 /* Build configuration list for PBXNativeTarget "appligit" */ = {
+		FA02436526298EFD00961E53 /* Build configuration list for PBXNativeTarget "iosRGB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA02436626298EFD00961E53 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA02436826298EFD00961E53 /* Build configuration list for PBXNativeTarget "appligitTests" */ = {
+		FA02436826298EFD00961E53 /* Build configuration list for PBXNativeTarget "iosRGBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA02436926298EFD00961E53 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA02436B26298EFD00961E53 /* Build configuration list for PBXNativeTarget "appligitUITests" */ = {
+		FA02436B26298EFD00961E53 /* Build configuration list for PBXNativeTarget "iosRGBUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA02436C26298EFD00961E53 /* Debug */,

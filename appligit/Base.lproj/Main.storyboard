@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="appligit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iosRGB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,16 +49,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="abJ-VU-nde">
-                                <rect key="frame" x="14" y="220.5" width="347" height="31"/>
-                                <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
-                            </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="85l-3m-fWz">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="85l-3m-fWz">
                                 <rect key="frame" x="14" y="318.5" width="347" height="31"/>
                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
+                                <connections>
+                                    <action selector="greenSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="nWL-dx-EIK"/>
+                                </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="EWo-kV-xH7">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="EWo-kV-xH7">
                                 <rect key="frame" x="14" y="431" width="347" height="31"/>
+                                <connections>
+                                    <action selector="blueSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="a7J-Lg-2NB"/>
+                                </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNV-Lk-AdG">
                                 <rect key="frame" x="26" y="616" width="76" height="30"/>
@@ -106,6 +108,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="abJ-VU-nde">
+                                <rect key="frame" x="14" y="220.5" width="347" height="31"/>
+                                <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
+                                <connections>
+                                    <action selector="redSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="rO5-ax-97t"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -152,6 +161,11 @@
                             <constraint firstItem="NfM-bR-TCs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xko-hU-bfK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueAff" destination="yvS-nl-quj" id="ZSR-dk-xYa"/>
+                        <outlet property="greenAff" destination="78J-rA-PD3" id="0sn-Bq-C83"/>
+                        <outlet property="redAff" destination="DSX-So-H0H" id="KgD-9i-oGx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

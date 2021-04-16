@@ -65,6 +65,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNV-Lk-AdG">
                                 <rect key="frame" x="26" y="616" width="76" height="30"/>
                                 <state key="normal" title="Enregistrer"/>
+                                <connections>
+                                    <action selector="enregistrer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JDO-4k-qTa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfM-bR-TCs">
                                 <rect key="frame" x="172.5" y="616" width="30" height="30"/>
@@ -82,8 +85,11 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pcW-W0-qJX">
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pcW-W0-qJX">
                                         <rect key="frame" x="34.5" y="0.0" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="webChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="Oa5-8S-jWM"/>
+                                        </connections>
                                     </switch>
                                 </subviews>
                             </stackView>
@@ -167,6 +173,8 @@
                     <connections>
                         <outlet property="blueAff" destination="yvS-nl-quj" id="ZSR-dk-xYa"/>
                         <outlet property="greenAff" destination="78J-rA-PD3" id="0sn-Bq-C83"/>
+                        <outlet property="penulAff" destination="1p7-58-Li3" id="5lg-9Z-Bm7"/>
+                        <outlet property="precAff" destination="Vax-TR-A5e" id="ZPB-T3-hvX"/>
                         <outlet property="premAff" destination="fQx-ws-oZd" id="0yF-9k-6yM"/>
                         <outlet property="redAff" destination="DSX-So-H0H" id="KgD-9i-oGx"/>
                         <outlet property="slideAffBlue" destination="EWo-kV-xH7" id="E9h-UB-5bC"/>
